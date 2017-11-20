@@ -1,1 +1,1 @@
-[http://github.com/adakkusu-san/adakkusu-san.github.io](Go to repository page.)
+[Go to repository page.](http://github.com/adakkusu-san/adakkusu-san.github.io)
