@@ -20,3 +20,4 @@
   * Also, think of better names
 * Don't use innerHTML
   * Also, the code could be better
+* Separate the CSS and JS into different files
