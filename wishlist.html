@@ -3,9 +3,9 @@
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex,nofollow">
 <link rel="stylesheet" type="text/css" href="/normares/normares.css">
-<style>body{background:#000;color:#fff;max-width:960px;margin:8px auto;font-family:sans-serif;font-size:14px}
+<style>body{background:#070707;color:#e7e7e7;font-family:Tahoma,Arial,Helvetica,sans-serif;font-size:12px}
 [class^="s-"],[class*=" s-"],
-[class^="c-"],[class*=" c-"]{background-image:url(https://cdn.discordapp.com/attachments/324669238377709568/722200502640574554/steamicontest.png);width:16px;height:16px;margin-right:4px}
+[class^="c-"],[class*=" c-"]{background-image:url(https://cdn.discordapp.com/attachments/324669238377709568/722200502640574554/steamicontest.png);width:16px;height:16px}
 .s-a{background-position:-16px 0}
 .s-b{background-position:-32px 0}
 .s-c{background-position:-48px 0}
@@ -28,7 +28,7 @@
 .s-t{background-position:-32px -48px}
 .s-u{background-position:-48px -48px}
 .s-v{background-position:-64px -48px}
-[class^="f-"],[class*=" f-"]{background-image:url(https://cdn.discordapp.com/attachments/324669238377709568/722200512375685170/infoicon.png);width:16px;height:16px;margin-right:4px}
+[class^="f-"],[class*=" f-"]{background-image:url(https://cdn.discordapp.com/attachments/324669238377709568/722200512375685170/infoicon.png);width:16px;height:16px}
 .f-a{background-position:-16px 0}
 .f-b{background-position:-32px 0}
 .f-c{background-position:0 -16px}
@@ -51,68 +51,77 @@
 .c-25{background-position:-16px -48px}
 .c-29{background-position:-16px -32px}
 .c-30{background-position:-64px -32px}
-body{
-font-family:Tahoma,Arial,Helvetica,sans-serif;
-font-size:12px}
+/*[class^="p-"],[class*=" p-"]{width:16px;height:16px}
+.p-a{background-position:-16px 0}
+.p-b{background-position:0 -16px}
+.p-c{background-position:-16px -16px}*/
 dl,dt,dd{box-sizing:border-box}
-dt,dd{float:left;margin:0;padding:2px 4px}
+dt,dd{float:left;margin:0;padding:2px 4px;border-top:2px dashed #272727}
 dl{padding:0;max-width:480px;margin:1em auto}
-dt{clear:both}
-dd{width:72%}
-dl:before,dl:after{content:'';display:table;clear:both}
-.discount_block{
+dt{clear:both;background:linear-gradient(-90deg,transparent,#111),
+linear-gradient(0deg,#111,#333,#111)}
+dd{width:72%;background:linear-gradient(90deg,transparent 95%,#111),
+linear-gradient(0deg,#111,#333,#111)}
+dl:before,dl:after,
+.dbk:before{content:'';display:table;clear:both}
+.dbk{
 line-height:17px;
 font-size:11px}
-.discount_pct,
-.discount_prices{
+.dpt,.dps{
 display:inline-block;
 padding:0 3px}
-.discount_pct{
+.dpt{
 background:#4c6b22;
 color:#8bc53f}
-.discount_prices{
+.dps{
 background:#000000;
 background:rgba(0,0,0,.8)}
-.discount_original_price,
-.discount_final_price{display:inline}
-.discount_original_price{
+.dop,.dfp{display:inline}
+.dop{
 text-decoration:line-through;
 color:#577180;
 font-size:80%;
 padding-right:4px;
 vertical-align:top}
-.discount_final_price{
-color:#acdbf5}
-table img{max-width:none}/*what*/
+.dfp{color:#acdbf5}
 .name{font-size:10pt}
 .name img{
 width:16px;
 height:16px;
 /*padding:1px;*/
-margin-right:4px}
+margin-right:4px;
+border:1px solid transparent;
+vertical-align:top}
 .name img,dt img{background-color:#444}
 .cat,.info{font-size:0;margin:2px 0}
 .cat{float:left}
 .info{float:right}
-.discount_block:before{content:'';display:table;clear:both}
-.cat img,.info img{vertical-align:top;margin:0 2px}
-.cat a:first-child img,.cat a:last-child img,
-.info a:first-child img,.info a:last-child img{margin:0}
-.cat a:first-child img,
+.cat img,.info img{margin:0 2px}
+.cat img:first-child,
+.cat img:last-child,
+.cat img:first-child:last-child,
+.info a:first-child img,
+.info a:last-child img,
+.info a:first-child:last-child img{margin:0}
+.cat img:first-child,
 .info a:first-child img{margin-right:2px}
-.cat a:last-child img,
+.cat img:last-child,
 .info a:last-child img{margin-left:2px}
-a{color:#3cf}
+a:link,a:visited{color:#3cf}
 a:link{text-decoration:none}
 a:hover{text-decoration:underline}
-dt img{width:120px;height:45px;border:2px solid transparent}
-.name img {border:1px solid transparent}
+dt img{width:120px;height:45px;border:2px solid transparent;margin:3px 0}
 dt a:hover img,
-.name a:hover img {border-color:#3cf}
-@media (max-width:480px){
+.name a:hover img{border-color:#3cf}
+.cat img:hover,
+.info img:hover,
+.info a:focus img{outline:2px solid #068}
+button{background:linear-gradient(to bottom,#333 25%,#000);border:2px solid #444}
+@media(max-width:480px){
 dt,dd{float:none;display:block}
-dt{text-align:center}
-dd{width:auto}
+dt{text-align:center;padding:0;background:none;margin-top:4px}
+dd{width:auto;border:none;padding:0;
+background:linear-gradient(0deg,#111,#333,#111)}
 }</style></head><body>
 <div style="text-align:center" id="demo">Provisional<br></div>
 <noscript><p style="text-align:center">My apologies, until I figure out how to handle 
@@ -128,7 +137,7 @@ var jsonobj=[
 'c':[2,22,28,29,13,25],
 'p':[0]
 },
-{'appid':485280,'n':"Khimera Destroy all Monster Girls Doctor's Assistant Costume",'f':['d'],
+{'appid':485280,'n':"Khimera Destroy all Monster Girls Doctor's Assistant Costume",
 'c':[21],
 'p':[79]
 },
@@ -307,7 +316,7 @@ var jsonobj=[
 'c':[2,22,28,29,23],
 'p':[799,319,60]
 },
-{'appid':447530,'n':'VA11 HallA Cyberpunk Bartender Action','f':['q'],'h':25099,
+{'appid':447530,'n':'VA11 HallA Cyberpunk Bartender Action','h':25099,
 'i':'eb4485232d4ac9ec5a786fa4ba5b9c95fc3e8d63',
 'c':[2,22,29,23],
 'p':[1499,989,34]
@@ -333,7 +342,7 @@ var jsonobj=[
 'c':[2,22,28,13,23],
 'p':[499,124,75]
 },
-{'appid':1186270,'n':'Nosferatu Lilinor',
+{'appid':1186270,'n':'Nosferatu Lilinor','f':['q'],
 'i':'6cf89ffb3b2aeef35fa5c8c8145a24714c4ef3d4',
 'c':[2,22,28,776],
 'p':[999,899,10]
@@ -373,12 +382,12 @@ var jsonobj=[
 'c':[2,776],
 'p':[0]
 },
-{'appid':1079200,'n':'Piko Piko',
+{'appid':1079200,'n':'Piko Piko','f':['q'],
 'i':'c52cceeb42f12a3ee159a0c68811c3b98a592d57',
 'c':[2,18,666],
 'p':[819,696,15]
 },
-{'appid':774171,'n':'Muse Dash',
+{'appid':774171,'n':'Muse Dash','f':['q'],
 'i':'e0f4a24aa5b44887dc3467ee3e9ceabf46082041',
 'c':[2,28,23],
 'p':[349,174,50]
@@ -388,7 +397,7 @@ var jsonobj=[
 'c':[2,22,28,29,23,25,1],
 'p':[1499,374,75]
 },
-{'appid':794550,'n':'Grapple Force Rena',
+{'appid':794550,'n':'Grapple Force Rena','f':['q'],
 'i':'1d2dbe0a630d406907257b65efb0f09f8396c8e9',
 'c':[2,22,18,23],
 'p':[1399,699,50]
@@ -398,7 +407,7 @@ var jsonobj=[
 'c':[2,22,29,18,23],
 'p':[1499,749,50]
 },
-{'appid':1181520,'n':'Null Peta Invasion of the Queen Bug',
+{'appid':1181520,'n':'Null Peta Invasion of the Queen Bug','f':['q'],
 'i':'a736c901c406a3430b5c7b98f13777cee488678a',
 'c':[2,22,18],
 'p':[1679,1427,15]
@@ -423,7 +432,7 @@ var jsonobj=[
 'c':[2,39,22,28,23,25,776,9,1],
 'p':[659,428,35]
 },
-{'appid':1267870,'n':'Xenogunner',
+{'appid':1267870,'n':'Xenogunner','f':['q'],
 'i':'a3374403b5de0838f21972fa243cd4504ae47895',
 'c':[2,28],
 'p':[1249]
@@ -463,6 +472,11 @@ var jsonobj=[
 'c':[2,22,29,30,23,25,17],
 'p':[499,249,50]
 },
+{'appid':642650,'n':"Pepper's Puzzles",
+'i':'9333e5250a03b1786a1183068af397ad7c5a8a4c',
+'c':[2,22,30,18,23,17],
+'p':[699,279,60]
+},
 {'appid':575650,'n':"Lily's Day Off",
 'i':'578ebef2beba4f7f1b99912be414ede0a6ad5dee',
 'c':[2,22,29],
@@ -488,12 +502,12 @@ var jsonobj=[
 'c':[2,22,29,18,23],
 'p':[999,499,50]
 },
-{'appid':337420,'n':'Final Dusk',
+{'appid':337420,'n':'Final Dusk','f':['q'],
 'i':'6a53df41048d8a53adfee25097f077d5c08b3e2b',
 'c':[2,29],
 'p':[299,44,85]
 },
-{'appid':1102880,'n':'Kawaii Deathu Desu',
+{'appid':1102880,'n':'Kawaii Deathu Desu','f':['q'],
 'i':'601be8d56ee5a47e474f1662edd4ffe4e831f1d2',
 'c':[2,39,22,18,776,1,9,24],
 'p':[329,246,25]
@@ -518,7 +532,7 @@ var jsonobj=[
 'c':[2,22,28,29,30],
 'p':[499,49,90]
 },
-{'appid':971620,'n':'Puyo Puyo Champions',
+{'appid':971620,'n':'Puyo Puyo Champions','f':['q'],
 'i':'010c3b37113a39473b8cd212dfdd7307f0151739',
 'c':[2,36,37,22,28,29,23,1,24,49],
 'p':[999,499,50]
@@ -609,7 +623,7 @@ var jsonobj=[
 'c':[2,36,37,22,28,29,23,25,1,49],
 'p':[999,299,70]
 },
-{'appid':262150,'n':'Vanguard Princess',
+{'appid':262150,'n':'Vanguard Princess','f':['q'],
 'i':'afd5895ec03d562a24001f37a91307189742e10c',
 'c':[2,37,29,13,30,18,24,1,49],
 'p':[499,149,70]
@@ -634,7 +648,7 @@ var jsonobj=[
 'c':[2,18,23],
 'p':[1499,1124,25]
 },
-{'appid':550080,'n':'VALKYRIE DRIVE BHIKKHUNI',
+{'appid':550080,'n':'VALKYRIE DRIVE BHIKKHUNI','f':['q'],
 'i':'f56485bda2ebf1550c898aab23b193c091e5215a',
 'c':[2,36,38,22,18,23,49,9],
 'p':[2999,1199,60]
@@ -644,7 +658,7 @@ var jsonobj=[
 'c':[2,36,37,38,39,22,28,29,23,24,149,9],
 'p':[1199,479,60]
 },
-{'appid':307050,'n':'Shan Gui',
+{'appid':307050,'n':'Shan Gui','f':['q'],
 'i':'9a455b0a3ec77fbe8b4c82aad907e4b69a937a17',
 'c':[2,22,28,29,23],
 'p':[99]
@@ -674,7 +688,7 @@ var jsonobj=[
 'c':[2,22,28,29],
 'p':[999,499,50]
 },
-{'appid':491040,'n':'Bot Vice','f':['q'],
+{'appid':491040,'n':'Bot Vice',
 'i':'9bd8454d28f77b8e5409c3a5942a016ed485411d',
 'c':[2,22,28,29,23,25],
 'p':[999,499,50]
@@ -683,10 +697,16 @@ var jsonobj=[
 'i':'c4cfc91850d08836a6b49bc0509f7b0e3e17ffa4',
 'c':[2,22,18],
 'p':[0]
+},
+{'appid':643880,'n':'Strikey Sisters',
+'i':'e9f5c651fc5b5a41648a8aeec3fb9e3edcbe3621',
+'c':[2,39,22,28,29,23,25,44,24,1,9],
+'p':[999,499,50]
 }
 ];
-var dl=document.getElementById('dlel');function rt(e){e.setAttribute('rel','noopener noreferrer');e.setAttribute('target','_blank')}
-function z(e){e=e>99?''+e:'0'+e;return (e.slice(0,-2)?e.slice(0,-2)+','+e.slice(-2):'0'+e.slice(-2))}
+var dl=document.getElementById('dlel');
+function rt(e){e.setAttribute('rel','noopener noreferrer');e.setAttribute('target','_blank')};
+function z(e){e=e>99?''+e:'0'+e;return (e.slice(0,-2)?e.slice(0,-2)+','+e.slice(-2):'0'+e.slice(-2))};
 for(var i=0;i<jsonobj.length;i++){
 var g=jsonobj[i],
 b='/spacer.gif',
@@ -711,7 +731,7 @@ dnt=document.createElement('div');
 n.classList.add('name');
 cat.classList.add('cat');
 info.classList.add('info');
-dnt.classList.add('discount_block');
+dnt.classList.add('dbk');
 iml.href=nl.href=st.href='https://store.steampowered.com/app/'+g.appid+'/';
 rt(iml);rt(nl);
 img.setAttribute('data-src','https://steamcdn-a.akamaihd.net/steam/apps/'+g.appid+'/capsule_sm_120.jpg');
@@ -775,7 +795,7 @@ cr.innerHTML='<img src="'+b+'" class="s-m">';
 //cr.textContent='[C]';
 rt(cr);info.appendChild(cr);
 }}catch(e){};
-if(!g.f||g.f&&g.f.indexOf('d')==-1){
+if(g.c.indexOf(21)==-1){
 pw.href='https://pcgamingwiki.com/api/appid.php?appid='+g.appid;
 pw.title='PCGamingWiki';
 pw.innerHTML='<img src="'+b+'" class="f-c">';
@@ -795,11 +815,13 @@ td.title='IsThereAnyDeal';
 td.innerHTML='<img src="'+b+'" class="f-b">';
 //td.textContent='[ITAD]';
 rt(td);info.appendChild(td);
+if(g.c.indexOf(21)==-1){
 pd.href='https://www.protondb.com/app/'+g.appid+'/';
 pd.title='ProtonDB';
 pd.innerHTML='<img src="'+b+'" class="f-e">';
 //pd.textContent='[P]';
 rt(pd);info.appendChild(pd);
+};
 sd.href='https://steamdb.info/app/'+g.appid+'/';
 sd.title='SteamDB';
 sd.innerHTML='<img src="'+b+'" class="f-f">';
@@ -813,7 +835,7 @@ wn.innerHTML='<img src="'+b+'" class="f-g">';
 //wn.textContent='[W]';
 rt(wn);info.appendChild(wn);
 };
-if(!g.f||g.f&&g.f.indexOf('d')==-1){
+if(g.c.indexOf(21)==-1){
 sp.href='https://steampeek.hu/?appid='+g.appid;
 sp.title='SteamPeek';
 sp.innerHTML='<img src="'+b+'" class="f-h">';
@@ -822,17 +844,16 @@ rt(sp);info.appendChild(sp);
 };
 dnt.innerHTML='';
 if(g.p){
-var t,s,p,d;
-t=g.p;s=t[0];p=t[1];d=t[2];
+var t=g.p,s=t[0],p=t[1],d=t[2];
 if(p&&d){
-dnt.innerHTML+='<div class="discount_pct">-'+d+'%</div>'+
-'<div class="discount_prices"><div class="discount_original_price">\u20ac'+z(s)+'</div>'+
-'<div class="discount_final_price">\u20ac'+z(p)+'</div></div>';
+dnt.innerHTML+='<div class="dpt">-'+d+'%</div>'+
+'<div class="dps"><div class="dop">\u20ac'+z(s)+'</div>'+
+'<div class="dfp">\u20ac'+z(p)+'</div></div>';
 }else if(s<1){
-dnt.innerHTML+='<div class="discount_pct">-100%</div>'+
-'<div class="discount_prices"><div class="discount_final_price">\u20acFREE</div></div>';
+dnt.innerHTML+='<div class="dpt">-100%</div>'+
+'<div class="dps"><div class="dfp">\u20acFREE</div></div>';
 }else if(s>0){
-dnt.innerHTML+='<div class="discount_prices"><div class="discount_final_price">\u20ac'+z(s)+'</div></div>';
+dnt.innerHTML+='<div class="dps"><div class="dfp">\u20ac'+z(s)+'</div></div>';
 }};
 dl.appendChild(dt);
 dl.appendChild(dd);
@@ -848,14 +869,19 @@ this.style.display='none';
 var img=document.getElementsByTagName('img');
 for(var i=0;i<img.length;i++){
 if(img[i].getAttribute('data-src')){
-img[i].setAttribute('src',img[i].getAttribute('data-src'));
-img[i].removeAttribute('data-src');
+//img[i].setAttribute('src',img[i].getAttribute('data-src'));
+//img[i].removeAttribute('data-src');
+img[i].classList.add('lazy');
 }
-}
+};
+myLazyLoad.update();
 };
 var btn=document.createElement('button');
 btn.textContent='Load Images';
 btn.addEventListener("click",limg,false);
 demo.appendChild(btn);
 })();</script>
+<script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.0.1/dist/lazyload.min.js"></script>
+<script>var myLazyLoad=new LazyLoad({threshold:0});</script>
 </body></html>
