@@ -68,8 +68,10 @@ font-size:11px}
 display:inline-block;
 padding:0 3px}
 .dpt{
-background:#4c6b22;
-color:#8bc53f}
+/*background:#4c6b22;
+color:#8bc53f*/
+background:#2c3f13;
+color:#7eb536}
 .dps{
 background:#000000;
 background:rgba(0,0,0,.8)}
@@ -80,7 +82,7 @@ color:#577180;
 font-size:80%;
 padding-right:4px;
 vertical-align:top}
-.dfp{color:#acdbf5}
+.dfp{/*color:#acdbf5*/color:#69bfec}
 .name{font-size:10pt}
 .name img{
 /*padding:1px;*/
@@ -102,11 +104,11 @@ vertical-align:top}
 .info a:first-child img{margin-right:2px}
 .cat img:last-child,
 .info a:last-child img{margin-left:2px}
-a:link,a:visited{color:#3cf}
+a:link,a:visited{/*color:#3cf*/color:#09c}
 a:link{text-decoration:none}
 a:hover{text-decoration:underline}
 dt img{width:120px;height:45px;border:2px solid transparent;margin:3px 0}
-dt a:hover img,.name a:hover img{border-color:#3cf}
+dt a:hover img,.name a:hover img{/*border-color:#3cf*/border-color:#09c}
 .cat img:hover,.info img:hover,.info a:focus img{outline:2px solid #068}
 button{background:linear-gradient(#333 25%,#000);border:2px solid #444;color:#fff}
 @media(max-width:480px){
@@ -694,7 +696,7 @@ var dl=document.getElementById('dlel');
 function rt(e){e.setAttribute('rel','noopener noreferrer');e.setAttribute('target','_blank')};
 function z(e){e=e>99?''+e:'0'+e;return (e.slice(0,-2)?e.slice(0,-2)+','+e.slice(-2):'0'+e.slice(-2))};
 for(var i=0;i<jsonobj.length;i++){
-var g=jsonobj[i],b='/spacer.gif',sc='https://cdn.cloudflare.steamstatic.com/',
+var g=jsonobj[i],b='/spacer.gif',sc='https://steamcdn-a.akamaihd.net/',
 dt=document.createElement('dt'),
 dd=document.createElement('dd'),
 iml=document.createElement('a'),
