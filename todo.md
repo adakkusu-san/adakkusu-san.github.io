@@ -8,14 +8,14 @@
 ### sdig.html
 
 * Continue the thing
-* Replace 'XmYs' in embeds with seconds without 's'
+* ~~Replace 'XmYs' in embeds with seconds without 's'~~
 * Make the table(s) in `summary` and `details`
   * May need a rewrite
-* Stop using tables(?)
+* ~~Stop using tables(?)~~
 
 ### wishlist.html
 
-* Stop hotlinking the placeholder images
+* ~~Stop hotlinking the placeholder images~~
 * Compress the images I added and host them somewhere else
   * Also, think of better names
 * Don't use innerHTML
