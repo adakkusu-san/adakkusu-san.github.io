@@ -722,11 +722,14 @@ dnt.classList.add('dbk');
 iml.href=nl.href=st.href='https://store.steampowered.com/app/'+g.appid+'/';
 rt(iml);rt(nl);
 img.setAttribute('data-src',sc+'steam/apps/'+g.appid+'/capsule_sm_120.jpg');
-img.src='https://steamdb.info/static/img/applogo.svg';
+//img.src='https://steamdb.info/static/img/applogo.svg';
+img.src=b;
 if(g.i){
 ico.setAttribute('data-src',sc+'steamcommunity/public/images/apps/'+g.appid+'/'+g.i+'.jpg');
-ico.src='https://steamdb.info/static/img/appicon.svg';
-}else{ico.src='https://steamdb.info/static/img/appicon.svg'};
+//ico.src='https://steamdb.info/static/img/appicon.svg'
+ico.src=b
+}else{//ico.src='https://steamdb.info/static/img/appicon.svg'
+ico.src=b};
 ns.textContent=g.n;
 if(g.f&&g.f.indexOf('q')!=-1){
 ns.textContent+='(?)';
