@@ -16,7 +16,7 @@
 ### wishlist.html
 
 * ~~Stop hotlinking the placeholder images~~
-* Compress the images I added and host them somewhere else
+* ~~Compress the images I added and host them somewhere else~~
   * Also, think of better names
 * Don't use innerHTML
   * Also, the code could be better
