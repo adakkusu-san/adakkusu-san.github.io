@@ -59,8 +59,8 @@
 dl,dt,dd{box-sizing:border-box}
 dt,dd{float:left;margin:0;padding:2px 4px;border-top:2px dashed #272727}
 dl{padding:0;max-width:480px;margin:1em auto}
-dt{clear:both;background:linear-gradient(-90deg,transparent,#111),linear-gradient(#111,#333,#111)}
-dd{width:72%;background:linear-gradient(90deg,transparent 95%,#111),linear-gradient(#111,#333,#111)}
+dt{clear:both;/*background:linear-gradient(-90deg,transparent,#111),linear-gradient(#111,#333,#111)*/}
+dd{width:72%;/*background:linear-gradient(90deg,transparent 95%,#111),linear-gradient(#111,#333,#111)*/}
 dl:before,dl:after,.dbk:before{content:'';display:table;clear:both}
 .dbk{
 line-height:17px;
@@ -105,16 +105,16 @@ vertical-align:top}
 .info a:first-child img{margin-right:2px}
 .cat img:last-child,
 .info a:last-child img{margin-left:2px}
-a:link,a:visited{/*color:#3cf*/color:#09c}
+/*a:link,a:visited{color:#3cf;color:#09c}
 a:link{text-decoration:none}
-a:hover{text-decoration:underline}
+a:hover{text-decoration:underline}*/
 dt img{width:120px;height:45px;border:2px solid transparent;margin:3px 0}
-dt a:hover img,.name a:hover img{/*border-color:#3cf*/border-color:#09c}
-.cat img:hover,.info img:hover,.info a:focus img{outline:2px solid #068}
+dt a:hover img,.name a:hover img{/*border-color:#3cf*/border-color:/*#09c*/#96f}
+.cat img:hover,.info img:hover,.info a:focus img{outline:2px solid /*#068*/#75609f}
 button{background:linear-gradient(#333 25%,#000);border:2px solid #444;color:#fff}
 dt,dd{float:none;display:block}
-dt{text-align:center;padding:0;background:none;margin-top:4px}
-dd{width:auto;border:none;background:linear-gradient(#111,#333,#111)}
+dt{text-align:center;padding:0;/*background:none*/;margin-top:4px}
+dd{width:auto;border:none;/*background:linear-gradient(#111,#333,#111)*/}
 </style></head><body>
 <div style="text-align:center" id="demo">Provisional<br></div>
 <noscript><p style="text-align:center">My apologies, until I figure out how to handle 
@@ -696,7 +696,7 @@ var dl=document.getElementById('dlel');
 function rt(e){e.setAttribute('rel','noopener noreferrer');e.setAttribute('target','_blank')};
 function z(e){e=e>99?''+e:'0'+e;return (e.slice(0,-2)?e.slice(0,-2)+','+e.slice(-2):'0'+e.slice(-2))};
 for(var i=0;i<jsonobj.length;i++){
-var g=jsonobj[i],b='/spacer.gif',sc='https://steamcdn-a.akamaihd.net/',
+var g=jsonobj[i],b='/spacer.gif',sc='https://cdn.cloudflare.steamstatic.com/',
 dt=document.createElement('dt'),
 dd=document.createElement('dd'),
 iml=document.createElement('a'),
